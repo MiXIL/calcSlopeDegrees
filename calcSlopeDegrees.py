@@ -12,7 +12,7 @@
 # For the best speed a Fortran function (slope.f) is available to perform the slope calculation.
 # This must be compiled using:
 #
-# f2py -c slope.f -m slope
+# f2py -llapack -c slope.f90 -m slope
 # 
 # Dan Clewley (daniel.clewley@gmail.com) - 26/06/2013
 #
