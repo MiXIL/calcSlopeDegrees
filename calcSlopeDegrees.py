@@ -107,9 +107,6 @@ def slopePython(inBlock, outBlock, inXSize, inYSize, zScale=1):
 def slopePythonPlane(inBlock, outBlock, inXSize, inYSize, A_mat, z_vec, winSize=3, zScale=1):
 
     """ Calculate slope using Python.
-        If Numba is available will make use of autojit function
-        to run at ~ 1/2 the speed of the Fortran module. 
-        If not will fall back to pure Python - which will be slow!
 
         Algorithm fits plane to a window of data and calculated the slope
         from this - slope than the standard algorithm but can deal with

@@ -26,13 +26,6 @@ c WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 c
 c~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-      program main
-
-      print*,"Hello World"
-      stop
-
-      end
-
       subroutine slope(inBlock, xSizes, ySizes, width, height, zScale
      1    , outBlock)
 c     slope routine - standard slope calculation
